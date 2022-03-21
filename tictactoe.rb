@@ -247,6 +247,7 @@ def final_score_reached?(score)
 end
 
 # MAIN GAME LOOP
+start_game
 loop do
   board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
   current_player = ["user", "computer"].sample
